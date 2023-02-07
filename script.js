@@ -1,5 +1,4 @@
 "use strict";
-let c = -100
-alert(c);
-let a =! -100;
-alert(+a)
+let a = 13;
+let b = 5;
+alert(a % b)
