@@ -1,5 +1,5 @@
 "use strict";
-let a = 1.5;
-let b = 0.75;
-let c = a + b;
-alert(c)
+let c = -100
+alert(c);
+let a =! -100;
+alert(+a)
