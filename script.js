@@ -1,13 +1,3 @@
 "use strict";
-let num, num1, num2;
-num = 123;
-num2 = 2;
-num1 = 4;
-alert(num);
-alert(num1);
-alert(num2);
-let  a;
-a = 10;
-alert(a);
-a = 20;
-alert(a);
+let a= 1 + 2 + 3;
+alert(a)
