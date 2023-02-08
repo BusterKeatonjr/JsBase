@@ -1,26 +1,13 @@
 "use strict";
-let a = '10';
-let b = '20';
-alert(Number(a) + Number(b));
+let a = parseFloat('5px');
+let b = parseFloat('6px');
+alert(a + b);
 
-alert( Number('2') + Number('3') ); // 5
+let c = parseFloat('5.5px');
+let d = parseFloat('6.25px');
+alert(c + d);
 
-alert( 2 + Number('3') ); //5
-
-alert( '2' + Number('3') ); //23
-
-let c = '2';
-let d = '3';
-alert(+c + +d);
-
-let i = '5s' * '2';
-alert(i); // Nan
-
-let j = '5s' + '2';
-alert(j); // 5s2
-
-let k = (-'5') + (-'2');
-alert(k); //-7
+alert(c + d + 'px');
 
 let l = '5' * 1 + '2' * 1;
 alert(l); // 7
