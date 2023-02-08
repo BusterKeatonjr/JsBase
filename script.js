@@ -1,22 +1,11 @@
 "use strict";
-let a = parseFloat('5px');
-let b = parseFloat('6px');
-alert(a + b);
-
-let c = parseFloat('5.5px');
-let d = parseFloat('6.25px');
-alert(c + d);
-
-alert(c + d + 'px');
-
-let l = '5' * 1 + '2' * 1;
-alert(l); // 7
-
-let m = '5' * '1' + '2' * '1';
-alert(m); // 7
-
-let n = '' + 3 + 1;
-alert(n); // 31
+alert(true + 3); // 4
+alert(true + true); // 2
+alert(true - true); // 0
+alert(true + false); // 1
+alert('1' + true); // 1true
+alert( String(true) + 1 );// true1
+alert( String(true) + Number(true) ); // true1
 
 
 
