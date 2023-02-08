@@ -1,6 +1,8 @@
 "use strict";
-let a = 'boba';
-alert(a.length)
+let str = `a
+b
+c`;
+alert(str);
 
 
 
