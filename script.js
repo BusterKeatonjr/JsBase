@@ -1,6 +1,13 @@
 "use strict";
-let arr = [1, 2, 3, 4, 5];
-console.log(arr[arr.length - 1]);
-console.log(arr[0] + arr[1] + arr[2] + arr[3] + arr[4]);
-console.log(arr.length);
-console.log(arr.length);
+let obj = {
+  1: "Понедельник",
+  2: "Вторник",
+  3: "Среда",
+  4: "Четверг",
+  5: "Пятница",
+  6: "Субота",
+  7: "Воскресенье",
+};
+for (let index = 0; index < 7; index++) {
+  document.write(`${obj[index + 1]}<br>`);
+}
