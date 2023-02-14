@@ -1,19 +1,12 @@
 "use strict";
-let name = prompt('Ваш возраст'); // задание 1
-alert('Ваш возраст: ' + name);
+document.write('text <br>')  
 
-let num1 = Number(prompt('Введите первое число')); // задание 2
-let num2 = Number(prompt('Введите второе число'));
+var str = 'Hello'
+document.write(str.italics(<br></br>)) 
 
-alert(num1 + num2);
+document.write('1<br>');
+document.write('2<br>');
+document.write('3<br>');
+document.write('4<br>');
+document.write('5<br>');
 
-let a = Number(prompt('Введите сторону квадрата'));// задание 3
-let b = 4
-
-alert(a * b)
-
-let c = Number(prompt('Введите первую сторону прямоугольника'));// задание 4
-let d = Number(prompt('Введите вторую сторону прямоугольника'));
-let v = 2
-
-alert(c * v + d * v)
