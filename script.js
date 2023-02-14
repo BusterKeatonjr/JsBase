@@ -1,10 +1,19 @@
 "use strict";
-let test = '12345';
-alert(test[0] + test[1]);
+let num = 1;
+num = num + 1;
+num = num + 1;
 
-let a = String(12345); 
-alert(a[0] + a[1]);
-alert(a[0] * a[1] * a[2] * a[3]* a[4] );
+alert(num);// 3
 
-let b = String(12345); 
-alert(b[4],b[3],b[2],b[1],b[0] );
+let q = 1;
+q = q + 2;
+q = q + 3;
+
+alert(q) // 6
+
+let a = 47;
+a  += 7;
+a  -=18;
+a  *= 10;
+a /= 15;
+alert(a)
