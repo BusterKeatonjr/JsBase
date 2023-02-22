@@ -1,6 +1,6 @@
 "use strict";
 
 let obj = { x: 1, y: 2, z: 3 };
-console.log(obj["x"]); 
-let key = "z";
-console.log(obj[key]);
+let prop = "x";
+console.log(obj[prop]); 
+console.log(obj[prop]); 
